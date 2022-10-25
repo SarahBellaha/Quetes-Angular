@@ -1,0 +1,22 @@
+.block-container {
+    height: 100%;
+    width: 100%;
+}
+
+.top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
