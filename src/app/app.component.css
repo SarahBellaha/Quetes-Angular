@@ -1,4 +1,4 @@
-.block-container {
+/* .block-container {
     height: 100%;
     width: 100%;
 }
@@ -19,4 +19,18 @@
     position: absolute;
     right: 0;
     bottom: 0;
+} */
+
+.vital {
+    color: red;
+    font-weight: bold;
+}
+
+ul {
+    width: fit-content;
+}
+
+.targeted {
+    font-size: 18px;
+    color: rgba(76, 5, 126, 0.847);
 }

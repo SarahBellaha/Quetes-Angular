@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Bienvenue sur le site de Sarah !';
+  title: string = 'Raclette party 🧀';
+
+  isThisIngredientVital: boolean = true;
+  isGuestListDisplayed: boolean = true;
+  showMovies: boolean = true;
+
+  songList: string[] = ["Alejandro", "Ne me quitte pas", "Le temps est bon"];
+  movieList: string[] = ['Le Seigneur des Anneaux', 'The Craft', 'Forrest Gump'];
 }

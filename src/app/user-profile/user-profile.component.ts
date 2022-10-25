@@ -17,11 +17,7 @@ export class UserProfileComponent implements OnInit {
   }
 
   isVisible():void {
-    if(this.showPicture === false) {
-      this.showPicture = true;
-    } else {
-      this.showPicture = false;
-    }
+      this.showPicture = !this.showPicture;
   }
 
 }

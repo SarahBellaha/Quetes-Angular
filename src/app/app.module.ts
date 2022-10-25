@@ -6,12 +6,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BlockComponent } from './block/block.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { HighlightDirective } from './highlight.directive';
+import { DisplayGuestsDirective } from './display-guests.directive';
+import { DisplayMoviesDirective } from './display-movies.directive';
+import { TargetMovieDirective } from './target-movie.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlockComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    HighlightDirective,
+    DisplayGuestsDirective,
+    DisplayMoviesDirective,
+    TargetMovieDirective
   ],
   imports: [
     BrowserModule,
