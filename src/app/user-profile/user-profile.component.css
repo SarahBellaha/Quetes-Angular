@@ -1,0 +1,21 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+}
+
+.large {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input, button {
+    width: 25vw;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 330px;
+    width: 350px;
+}
