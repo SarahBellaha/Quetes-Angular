@@ -10,6 +10,9 @@ import { HighlightDirective } from './highlight.directive';
 import { DisplayGuestsDirective } from './display-guests.directive';
 import { DisplayMoviesDirective } from './display-movies.directive';
 import { TargetMovieDirective } from './target-movie.directive';
+import { SignupComponent } from './signup/signup.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { RaclettePartyComponent } from './raclette-party/raclette-party.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { TargetMovieDirective } from './target-movie.directive';
     HighlightDirective,
     DisplayGuestsDirective,
     DisplayMoviesDirective,
-    TargetMovieDirective
+    TargetMovieDirective,
+    SignupComponent,
+    NavbarComponent,
+    RaclettePartyComponent
   ],
   imports: [
     BrowserModule,

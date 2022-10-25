@@ -1,0 +1,35 @@
+<ul>
+  <h4>Liste des Ingrédients :</h4>
+  <li>Pommes de terre</li>
+  <li
+    [ngStyle]="{
+      backgroundColor: isThisIngredientVital ? '#ec8d8d' : 'yellow'
+    }"
+  >
+    Raclette
+  </li>
+  <li>Jambon</li>
+  <li [ngClass]="{ vital: isThisIngredientVital }">Cornichons</li>
+  <li>Chou-fleur</li>
+</ul>
+
+<ul *appDisplayGuests="isGuestListDisplayed">
+  <h4>Liste des invités :</h4>
+  <li>Brenda</li>
+  <li>Dylan</li>
+  <li>Michel Drucker</li>
+  <li>Marc Aurèle</li>
+  <li>Julie</li>
+</ul>
+
+<ul>
+  <h4>Playlist :</h4>
+  <li *ngFor="let song of songList">{{ song }}</li>
+</ul>
+
+<ul *appDisplayMovies="showMovies">
+  <h4>Liste de films:</h4>
+  <li *ngFor="let movie of movieList" appTargetMovie>{{ movie }}</li>
+</ul>
+
+<h1 appHighlight>Raclette</h1>
