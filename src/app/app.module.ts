@@ -13,6 +13,7 @@ import { TargetMovieDirective } from './target-movie.directive';
 import { SignupComponent } from './signup/signup.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RaclettePartyComponent } from './raclette-party/raclette-party.component';
+import { MyFormComponent } from './my-form/my-form.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RaclettePartyComponent } from './raclette-party/raclette-party.componen
     TargetMovieDirective,
     SignupComponent,
     NavbarComponent,
-    RaclettePartyComponent
+    RaclettePartyComponent,
+    MyFormComponent
   ],
   imports: [
     BrowserModule,

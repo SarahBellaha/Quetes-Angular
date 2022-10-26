@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from './user-class';
 
 @Component({
   selector: 'app-signup',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignupComponent implements OnInit {
 
+  model: User = new User('', '', '','');
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSubmit(): void {
+    console.log(this.model);
   }
 
 }
